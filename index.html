@@ -9,13 +9,18 @@
     <h1>Коала</h1>
     <p> <strong>Коáла</strong>  (лат. <i>Phascolarctos cinereus</i> ) — вид <abbr title="Сумчатые (лат. Marsupialia) — инфракласс млекопитающих, объединяемый вместе с плацентарными в подкласс зверей.">сумчатых</abbr>, обитающий в Австралии. Единственный современный представитель семейства коаловых (Phascolarctidae) из отряда двурезцовых сумчатых (Diprotodontia).</p>
     <script>
-        function showDistance(speed, time) {
-        alert(speed * time);
+        let xPos = 300;
+        let yPos = 150;
+        function sendWarning(x,y) {
+            if ((x < xPos)&& {y < yPos}) {
+                aler("Adjastvthe position");
+            }else {
+                alert("Things are fine!");
+            }
         }
-        showDistance(10, 5);
-        showDistance(85, 1/5);
-        showDistance(12, 9);
-        showDistance(42, 21);
+        sendWarning(500,160);
+        sendWarning(100,100);
+        sendWarning(201,149);
     </script>
 </body>
 </html>
