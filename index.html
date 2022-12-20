@@ -20,16 +20,15 @@
     </style>
 </head>
 <body>
-  <div id="container">
-<button id="myButton">click me</button>
-  </div>
     <script>
-        //Скрипт для добавления событий на клик по кнопке
-        let myButton = document.querySelector("#myButton");
-        myButton.addEventListener("click", doSomething, false);
-        function doSomething(e) {
-            console.log("We clicked on: " +e.target.id);
+        let numbers = [1, 2, 2, 3, 4, 5, 6];
+       function name() {
+        for(let i = 0; i<numbers; i++) {
+            let item = numbers[i];
+            alert (item);
         }
+       } 
+       name();
     </script>
 </body>
 </html>
